@@ -1,0 +1,49 @@
+#main-footer {
+  background-color: $home-bg-color;
+  color: #fff;
+  height: 5rem;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    gap: 1rem;
+    .social {
+      display: flex;
+    }
+    .social .fa-brands {
+      margin-right: 1rem;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      text-align: center;
+      padding: 0.6rem;
+      cursor: pointer;
+      transition: all 0.7s;
+    }
+    .fa-facebook:hover {
+      background-color: #1877f2;
+      border-color: #1877f2;
+    }
+    .fa-twitter:hover {
+      background-color: #1da1f2;
+      border-color: #1da1f2;
+    }
+    .fa-instagram:hover {
+      background: linear-gradient(
+        45deg,
+        #405de6,
+        #5851db,
+        #833ab4,
+        #c13584,
+        #e1306c,
+        #fd1d1d
+      );
+      border-color: #5851db;
+    }
+    .fa-telegram:hover {
+      background-color: #0088cc;
+      border-color: #0088cc;
+    }
+  }
+}
