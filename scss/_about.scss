@@ -1,0 +1,42 @@
+#about {
+  &-a {
+    .info {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 1.2rem;
+
+      &__image {
+        padding: 1.2rem;
+        border-radius: 5%;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+          rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+      }
+
+      &__bio {
+        border: 1px solid $light-color;
+        padding: 0.8rem;
+        box-shadow: rgb(38, 57, 77) 0px 15px 25px -13px;
+        border-radius: 5%;
+      }
+    }
+  }
+
+  &-b {
+    color: #212121;
+    width: 100%;
+
+    .progress {
+      height: 20px;
+      background-color: $medium-color;
+      border-radius: 5px;
+      margin-bottom: 0.8rem;
+      text-align: left;
+
+      div {
+        height: 100%;
+        text-align: center;
+        background-color: $primary-color;
+      }
+    }
+  }
+}

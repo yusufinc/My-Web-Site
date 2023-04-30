@@ -58,4 +58,13 @@
       display: block;
     }
   }
+
+  &__inner {
+    background: $bg-image, no-repeat;
+    background-size: cover;
+    background-position: 40%;
+    height: 5.5rem;
+    color: #fff;
+    border-bottom: 3px solid $home-bg-color;
+  }
 }
