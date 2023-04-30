@@ -1,0 +1,53 @@
+#home {
+  // home section a
+  &__a {
+    .skills {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+      .skillscard div:hover {
+        transform: translateY(-20px);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+      }
+
+      i {
+        color: rgb(21, 124, 234);
+      }
+      h3 {
+        color: whitesmoke;
+      }
+      p {
+        color: #19a7ce;
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+
+  //   home section b
+
+  &__b {
+    .profile {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      li {
+        &.title {
+          font-size: 1.5rem;
+        }
+        &.number {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+      }
+      div {
+        padding: 3rem 0;
+        &:nth-child(odd) {
+          background-color: $light-color;
+        }
+        &:nth-child(even) {
+          background-color: $medium-color;
+        }
+      }
+    }
+  }
+}
