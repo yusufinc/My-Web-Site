@@ -1,6 +1,7 @@
 #home {
   // home section a
   &__a {
+    color: #fff;
     .skills {
       display: flex;
       gap: 1rem;
@@ -8,6 +9,7 @@
       .skillscard div:hover {
         transform: translateY(-20px);
         box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+        cursor: pointer;
       }
 
       i {
@@ -26,7 +28,10 @@
   //   home section b
 
   &__b {
+    color: whitesmoke;
+    background-color: #060340;
     .profile {
+      color: #fff;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
 
@@ -42,10 +47,10 @@
       div {
         padding: 3rem 0;
         &:nth-child(odd) {
-          background-color: $light-color;
+          background-color: #18145b;
         }
         &:nth-child(even) {
-          background-color: $medium-color;
+          background-color: #18145b;
         }
       }
     }
@@ -53,6 +58,8 @@
 
   // home section c
   &__c {
+    background-color: #060340;
+    color: whitesmoke;
     .process {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
