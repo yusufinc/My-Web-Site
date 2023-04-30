@@ -19,7 +19,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
+
     <title>Document</title>
   </head>
   <body>
@@ -110,6 +115,74 @@
       </div>
     </section>
 
+    <!-- section c -->
+    <section id="about-c" class="bg-linear-grad py-2">
+      <div class="container">
+        <div class="about-logos">
+          <img src="img/joomla.png" alt="" />
+          <img src="img/woocommerce.png" alt="" />
+          <img src="img/wordpress.png" alt="" />
+          <img src="img/woocommerce.png" alt="" />
+          <img src="img/wix.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- section d -->
+    <section id="about-d" class="bg-linear-grad py-2">
+      <div class="container">
+        <h2 class="section-title text-center">References</h2>
+        <div class="border-bottom"></div>
+        <p class="lead text-center">Lorem ipsum aaa ddd dolor sit amet.</p>
+        <div class="references owl-carousel owl-theme">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus aperiam sed sequi recusandae nostrum nihil quae modi,
+              odio quaerat ratione!
+            </p>
+            <ul>
+              <li><img src="img/user-1.jpeg" alt="" /></li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus aperiam sed sequi recusandae nostrum nihil quae modi,
+              odio quaerat ratione!
+            </p>
+            <ul>
+              <li><img src="img/user-2.jpeg" alt="" /></li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus aperiam sed sequi recusandae nostrum nihil quae modi,
+              odio quaerat ratione!
+            </p>
+            <ul>
+              <li><img src="img/user-3.jpeg" alt="" /></li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus aperiam sed sequi recusandae nostrum nihil quae modi,
+              odio quaerat ratione!
+            </p>
+            <ul>
+              <li><img src="img/user-4.jpeg" alt="" /></li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- footer -->
     <footer id="main-footer">
       <div class="footer-content container">
@@ -122,5 +195,28 @@
         </div>
       </div>
     </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

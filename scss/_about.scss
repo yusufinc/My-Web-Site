@@ -39,4 +39,39 @@
       }
     }
   }
+
+  &-c {
+    .about-logos {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      justify-content: space-between;
+
+      img {
+        width: 16%;
+      }
+    }
+  }
+
+  &-d {
+    .references {
+      ul {
+        list-style: none;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+      }
+      p {
+        border: 1px solid $medium-color;
+        border-radius: 5px;
+        padding: 0.5rem;
+      }
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        padding-right: 0.5rem;
+      }
+    }
+  }
 }
