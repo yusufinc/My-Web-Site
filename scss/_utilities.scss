@@ -4,6 +4,23 @@
   margin: auto;
 }
 
+// // progess
+// %progress-shared{
+//   background: rgba(255, 255, 255, 0.1);
+//       justify-content: flex-start;
+//       border-radius: 100px;
+//       align-items: center;
+//       position: relative;
+//       padding: 0 5px;
+//       display: flex;
+//       height: 40px;
+//       width: 100%;
+//       margin-top: 2px;
+// }
+
+// .progress-special{
+
+// }
 // buttons
 
 %btn-shared {
@@ -85,6 +102,10 @@ input[class^="btn-"]:hover {
   }
 }
 
+.progress-margin {
+  margin-bottom: -4px;
+  margin-left: 17px;
+}
 // text
 .text-center {
   text-align: center;

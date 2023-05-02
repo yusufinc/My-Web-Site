@@ -5,4 +5,9 @@ $medium-color: #ccc;
 $dark-color: #333;
 $bg-image: url(../img/bg-image.jpg);
 $home-bg-color: #223241;
-$bg-linear-gradient-color: linear-gradient(to right, #00c9ff, #92fe9d);
+$bg-linear-gradient-color: linear-gradient(
+  7deg,
+  rgba(20, 29, 100, 1) 0%,
+  rgba(43, 111, 130, 1) 45%,
+  rgba(238, 130, 238, 1) 100%
+);

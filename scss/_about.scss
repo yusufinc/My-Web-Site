@@ -22,20 +22,85 @@
   }
 
   &-b {
-    color: #212121;
+    color: #210777;
     width: 100%;
 
     .progress {
-      height: 20px;
-      background-color: $medium-color;
-      border-radius: 5px;
-      margin-bottom: 0.8rem;
-      text-align: left;
+      background: rgba(255, 255, 255, 0.1);
+      justify-content: flex-start;
+      border-radius: 100px;
+      align-items: center;
+      position: relative;
+      padding: 0 5px;
+      display: flex;
+      height: 40px;
+      width: 100%;
+      margin-top: 2px;
 
-      div {
-        height: 100%;
-        text-align: center;
-        background-color: $primary-color;
+      .pro1 {
+        animation: load 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #fff;
+        height: 30px;
+        width: 0;
+      }
+      @keyframes load {
+        0% {
+          width: 0;
+        }
+        100% {
+          width: 73%;
+        }
+      }
+
+      .pro {
+        animation: loadpro 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #fff;
+        height: 30px;
+        width: 0;
+      }
+      @keyframes loadpro {
+        0% {
+          width: 0;
+        }
+        100% {
+          width: 70%;
+        }
+      }
+      .loadfull {
+        animation: loadfull 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #fff;
+        height: 30px;
+        width: 0;
+      }
+      @keyframes loadfull {
+        0% {
+          width: 0;
+        }
+        100% {
+          width: 90%;
+        }
+      }
+      .med {
+        animation: loadmd 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #fff;
+        height: 30px;
+        width: 0;
+      }
+      @keyframes loadmd {
+        0% {
+          width: 0;
+        }
+        100% {
+          width: 60%;
+        }
       }
     }
   }
