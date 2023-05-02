@@ -3,6 +3,7 @@
     "scss": "node-sass --watch scss -o public/css sass --output-style compressed "
   },
   "dependencies": {
+    "lightbox2": "^2.11.3",
     "node-sass": "^8.0.0",
     "owl.carousel": "^2.3.4"
   }
