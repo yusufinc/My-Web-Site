@@ -24,7 +24,7 @@
 // buttons
 
 %btn-shared {
-  display: inline-block;
+  display: block;
   padding: 0.7rem 2rem;
   transition: all 0.6s;
   border: none;
@@ -53,7 +53,7 @@ button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
   background-color: $home-bg-color;
-  color: #fff;
+  color: #2efa00;
 }
 
 // background
