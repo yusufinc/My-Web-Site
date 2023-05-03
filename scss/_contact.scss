@@ -1,11 +1,48 @@
-#contact {
-  &-a {
-    background: url(https://images.unsplash.com/photo-1485770958101-9dd7e4ea6d93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-    height: 70vh;
-    color: #ffffff;
-    opacity: 0.88;
+#contact-a {
+  background: url(https://images.unsplash.com/photo-1485770958101-9dd7e4ea6d93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100vh;
+  color: #ffffff;
+  text-align: center;
+}
+
+.form-fields {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.2)
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fffff0;
+
+  form {
+    height: 55vh;
+    max-width: 66.5%;
+
+    label {
+      display: block;
+      text-align: left;
+    }
+    input {
+      display: block;
+      line-height: 2rem;
+      width: 100%;
+    }
+  }
+}
+
+#contact-b {
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
   }
 }

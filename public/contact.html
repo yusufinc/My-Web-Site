@@ -33,7 +33,15 @@
   </head>
   <body>
     <!-- header -->
-    <header id="header__inner">
+    <header
+      style="
+        background-color: rgba(88, 88, 88, 0.35);
+        background-image: url(../public/img/Logo1.png);
+        background-position: top;
+        background-size: cover;
+      "
+      id="header__inner"
+    >
       <div class="container">
         <nav class="main-nav">
           <a href="#"
@@ -50,27 +58,75 @@
     </header>
 
     <!-- section contact a -->
-    <section id="contact-a" class="text-center py-3">
+    <section id="contact-a">
       <div class="container">
         <h2 class="section-title">Contact Me</h2>
         <div class="border-bottom"></div>
         <p class="lead">Lorem ipsum dolor sit amet.</p>
-        <form>
-          
+        <div class="form-fields">
+          <form style="padding: 1rem">
+            <label for="name">First Name</label>
+            <input type="text" id="name" placeholder="Enter name" />
+            <label for="mail">Email</label>
+            <input type="email" name="" id="mail" placeholder="Enter email" />
+            <label for="subject">Subject</label>
+            <input type="text" name="" id="subject" placeholder="Subject" />
+            <label for="telephone">Phone Number</label>
+            <input
+              type="tel"
+              name=""
+              id="telephone"
+              style="margin-bottom: 1rem"
+              placeholder="Phone"
+            />
+            <textarea
+              name=""
+              id=""
+              rows="3"
+              cols="98"
+              placeholder="Message"
+            ></textarea>
+            <button class="uibtn">Submit</button>
           </form>
         </div>
       </div>
     </section>
 
-    <!-- section contact b --> 
-    <section id="contact-b" class="text-center py-3"></section>
-
-
+    <!-- section contact b -->
+    <section id="contact-b" class="bg-primary py-4">
+      <div class="container">
+        <div class="contact-info skillscard">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>mail@mail.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x"> </i>
+            <h3>Phone</h3>
+            <p>(555) 555 55 55</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>Address</h3>
+            <p>İstanbul, Türkiye</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- section contact c -->
-<section id="contact-c" class="text-center py-2"></section>
-
-
+    <section id="contact-c" class="text-center py-2 bg-color">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d95973.52069486087!2d28.6588277!3d41.2615794!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409ffff60abc95a9%3A0x380ce02cc824e506!2zxLBzdGFuYnVsIEhhdmFsaW1hbsSx!5e0!3m2!1str!2str!4v1683141493575!5m2!1str!2str"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
 
     <!-- footer -->
     <footer id="main-footer">
