@@ -15,11 +15,31 @@
 
   #home__a .skills,
   #home__b .profile,
-  #home__c .process {
+  #home__c .process,
+  .items {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  .projects {
+    .items {
+      .item {
+        width: 70%;
+      }
+    }
+  }
+
+  #contact-b .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+      width: 90%;
+      margin: 1rem 0;
+    }
   }
 }
 
@@ -27,7 +47,7 @@
 @media (max-width: 576px) {
   #header {
     &__home {
-      height: 10rem;
+      height: 12rem;
       border-bottom: 2px solid $primary-color;
       background-position: 20% 30%;
       .header-content {
@@ -47,7 +67,8 @@
     }
     #home__a .skills,
     #home__b .profile,
-    #home__c .process {
+    #home__c .process,
+    .items {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -77,6 +98,38 @@
           border-radius: 20px;
         }
       }
+    }
+
+    &-c {
+      .about-logos {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+          width: 13%;
+        }
+      }
+    }
+  }
+
+  .projects {
+    .items {
+      .item {
+        width: 60%;
+      }
+    }
+  }
+
+  #contact-b .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+      width: 70%;
+      margin: 1rem 0;
     }
   }
 }
