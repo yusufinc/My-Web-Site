@@ -17,15 +17,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../node_modules/lightbox2/dist/css/lightbox.min.css"
     />
     <link rel="stylesheet" href="css/main.css" />
 
@@ -64,30 +56,53 @@
         <div class="border-bottom"></div>
         <p class="lead">Lorem ipsum dolor sit amet.</p>
         <div class="form-fields">
-          <form style="padding: 1rem">
+          <form
+            action="https://formspree.io/f/xeqwnlvk"
+            method="POST"
+            style="padding: 1rem"
+          >
             <div class="myinput">
               <label for="name">First Name</label>
-              <input type="text" id="name" placeholder="Enter name" />
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter name"
+              />
             </div>
             <div class="myinput">
               <label for="mail">Email</label>
-              <input type="email" name="" id="mail" placeholder="Enter email" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter email"
+              />
             </div>
             <div class="myinput">
               <label for="subject">Subject</label>
-              <input type="text" name="" id="subject" placeholder="Subject" />
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Subject"
+              />
             </div>
             <div class="myinput">
               <label for="telephone">Phone Number</label>
               <input
                 type="tel"
-                name=""
-                id="telephone"
+                name="phone"
+                id="phone"
                 style="margin-bottom: 1rem"
                 placeholder="Phone"
               />
             </div>
-            <textarea name="" id="" placeholder="Enter Message"></textarea>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Enter Message"
+            ></textarea>
             <div><button class="submbtn">Submit</button></div>
           </form>
         </div>

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "scss": "node-sass --watch scss -o public/css sass --output-style compressed "
+    "scss": "node-sass --watch scss -o public/css/main sass --output-style compressed "
   },
   "dependencies": {
     "lightbox2": "^2.11.3",
