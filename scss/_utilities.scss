@@ -85,6 +85,9 @@ input[class^="btn-"]:hover {
     padding: 4rem 0;
   }
 }
+.myinput {
+  margin: 1rem;
+}
 // margin
 
 .my {
@@ -175,8 +178,8 @@ input[class^="btn-"]:hover {
 }
 
 .submbtn {
-  padding: 16px 24px;
-  border-radius: 20px;
+  padding: 16px 0;
+  border-radius: 30px;
   border: 0;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0 0 8px;

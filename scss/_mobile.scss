@@ -1,5 +1,20 @@
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 768px) {
+  #home {
+    &__a {
+      .skillscard div {
+        border-bottom: 1px $light-color solid;
+        padding-bottom: 1.2rem;
+        margin: 1.2rem;
+      }
+    }
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    margin-bottom: 1.8rem;
+    word-spacing: 1px;
+  }
   #header {
     &__home {
       height: 30rem;
@@ -31,20 +46,55 @@
     }
   }
 
-  #contact-b .contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  #contact {
+    &-a {
+      .container {
+        width: 90%;
 
-    div {
-      width: 90%;
-      margin: 1rem 0;
+        form {
+          height: 40vh;
+          width: 80%;
+
+          button {
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    &-b {
+      .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div {
+          width: 70%;
+          margin: 0.7rem 0;
+          border-bottom: 1px dashed #eee;
+        }
+      }
     }
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width: 576px) {
+  #home {
+    &__a {
+      .skillscard div {
+        border-bottom: 1px $light-color solid;
+        padding-bottom: 1rem;
+        margin: 1rem;
+      }
+    }
+  }
+  .lead {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    word-spacing: 1px;
+  }
+
   #header {
     &__home {
       height: 12rem;
@@ -122,14 +172,29 @@
     }
   }
 
-  #contact-b .contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  #contact {
+    &-a {
+      .container {
+        width: 90%;
 
-    div {
-      width: 70%;
-      margin: 1rem 0;
+        form {
+          width: 90%;
+        }
+      }
+    }
+
+    &-b {
+      .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div {
+          width: 60%;
+          margin: 1rem 0;
+          border-bottom: 1px dashed #eee;
+        }
+      }
     }
   }
 }
