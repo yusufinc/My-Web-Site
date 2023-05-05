@@ -17,6 +17,10 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
     />
     <link rel="stylesheet" href="css/main.css" />
@@ -25,15 +29,7 @@
   </head>
   <body>
     <!-- header -->
-    <header
-      style="
-        background-color: rgba(88, 88, 88, 0.35);
-        background-image: url(../public/img/Logo1.png);
-        background-position: top;
-        background-size: cover;
-      "
-      id="header__inner"
-    >
+    <header id="header__inner">
       <div class="container">
         <nav class="main-nav">
           <a href="#"
@@ -99,11 +95,16 @@
               />
             </div>
             <textarea
+              class="animate__animated animate__swing"
               name="message"
               id="message"
               placeholder="Enter Message"
             ></textarea>
-            <div><button class="submbtn">Submit</button></div>
+            <div>
+              <button class="submbtn animate__animated animate__swing">
+                Submit
+              </button>
+            </div>
           </form>
         </div>
       </div>
