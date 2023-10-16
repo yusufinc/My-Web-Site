@@ -3,6 +3,28 @@
   padding: 0 1.4rem;
   margin: auto;
 }
+::-webkit-scrollbar {
+  width: 1rem;
+  height: 1rem;
+  transition: all 1s;
+  background-color: #0f0c48;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 5px solid transparent;
+  border-radius: 100px;
+  background-color: #13e3ea;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6e9776;
+}
+
 .btn-primary,
 .btn-light,
 .btn-dark {
